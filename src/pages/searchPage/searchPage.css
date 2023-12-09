@@ -4,16 +4,84 @@
   top: 0;
   z-index: 99;
   padding: 30px;
-  border-bottom: 1px soid lightgray;
-  align-items: flex-start;
+  border-bottom: 1px solid lightgray;
+  justify-content: space-between;
+}
+.searchPage-header-left{
+  display: flex;
 }
 .searchPage-logo{
   height: 70px;
   object-fit: contain;
   margin-right: 50px;
+  max-width: 150px;
   transform: translate(0,-20%);
   
 }
-.searchPage-header-body{
+.searchPage-header-input{
   max-width: 650px;
+}
+.related-terms{
+  display: flex;
+  margin-top: 20px;
+}
+.related-term{
+  padding: 10px 20px;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+  width: fit-content;
+  margin-right: 14px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+.searchPage-header-right>
+.icons{
+display: flex;
+align-items: center;
+}
+.searchPage-header-right>.icons>.MuiSvgIcon-root {
+  margin-right: 20px;
+  color: rgb(111, 111, 111);
+  cursor: pointer;
+}
+.searchPage-result{
+  margin-bottom: 35px;
+}
+.searchPage-body{
+  margin-left: 200px;
+  padding: 10px 20px;
+}
+.searching-time{
+  margin-bottom: 30px;
+}
+.searchPage-body{
+  max-width: 650px;
+}
+.searchResult-header a{
+  text-decoration: none;
+  color: rgb(21, 21, 21);
+}
+.result-name{
+  text-transform: capitalize;
+  font-size: 14px;
+  /* margin-bottom: 5px; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.searchResult-header{
+  display: flex;
+  align-items: center;
+}
+.searchResult-header>.resultImg{
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+.result-title{
+  text-decoration: none;
+  margin-bottom: 18px;
+}
+.result-title:hover {
+  text-decoration: underline;
 }

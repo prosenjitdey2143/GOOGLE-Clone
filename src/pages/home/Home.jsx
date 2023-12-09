@@ -28,7 +28,7 @@ const Home = () => {
           src="https://1000logos.net/wp-content/uploads/2021/05/Google-logo-500x281.png"
           alt="google logo"
         />
-        <Search showbtn={true}/>
+        <Search showbtn={true} />
       </div>
     </div>
   );
